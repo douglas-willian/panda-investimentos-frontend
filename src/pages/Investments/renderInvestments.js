@@ -21,7 +21,7 @@ export default function renderInvestments(data, investmentType, handleDeleteInve
             onClick={() => handleDeleteInvestments(investment.id)}
             type='button'
           >
-            <FiTrash2 size={20} color='#a8a8b3' />
+            <FiTrash2 size={20} color='#90b128' />
           </button>
         </li>
       );

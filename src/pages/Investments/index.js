@@ -64,7 +64,7 @@ export default function GetInvestments() {
           Cadastrar novo Investimento
         </Link>
         <button onClick={handleLogout} type='button'>
-          <FiPower size={18} color='#E02041' />
+          <FiPower size={18} color='#90b128' />
         </button>
       </header>
 

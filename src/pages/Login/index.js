@@ -8,9 +8,8 @@ import api from '../../services/api';
 import './styles.css';
 
 import logoImg from '../../assets/logo.svg';
-import bambooImg from '../../assets/bamboo.png';
 
-export default function Logon() {
+export default function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const history = useHistory();
@@ -33,12 +32,15 @@ export default function Logon() {
   }
 
   return (
-    <div className='logon-container'>
+    <div className='login-container'>
       <section className='form'>
-        <img id='logo' src={logoImg} alt=''/>
+
+      <h1 id='login-title'>PANDA INVESTIMENTOS</h1>
+
+        {/* <img id='logo' src={logoImg} alt='' /> */}
 
         <form onSubmit={handleLogin}>
-          <h1>Faça seu logon</h1>
+          <h1>Faça seu login</h1>
 
           <input
             placeholder='Email'
@@ -59,13 +61,13 @@ export default function Logon() {
           </button>
 
           <Link className='back-link' to='/register'>
-            <FiLogIn size={16} color='#E02041' />
+            <FiLogIn size={16} color='#90b128' />
             Não tenho cadastro
           </Link>
         </form>
       </section>
       <ToastContainer />
-      <img id='bamboo' src={bambooImg} alt=''/>
+      <img id='login-img' src={logoImg} alt='' />
     </div>
   );
 }

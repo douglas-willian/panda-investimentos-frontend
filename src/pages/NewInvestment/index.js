@@ -10,7 +10,7 @@ import './styles.css';
 import logoImg from '../../assets/logo.svg';
 
 export default function NewInvestment() {
-  const [type, setType] = useState('variavel');
+  const [type, setType] = useState('variable');
   const [value, setValue] = useState('');
   let [isDisabled, setIsDisabled] = useState(false);
   const [date, setDate] = useState('');
@@ -49,18 +49,18 @@ export default function NewInvestment() {
         <section>
           <img src={logoImg} alt=''/>
 
-          <h1>Cadastrar novo caso</h1>
+          <h1>Cadastrar novo Investimento</h1>
 
           <Link className='back-link' to={`/investments/${id}`}>
-            <FiArrowLeft size={16} color='#E02041' />
+            <FiArrowLeft size={16} color='#90b128' />
             Voltar para home
           </Link>
         </section>
 
         <form onSubmit={handleNewInvestment}>
           <select value={type} onChange={(e) => setType(e.target.value)}>
-            <option value='variavel'>VARIAVEL</option>
-            <option value='fixa'>FIXA</option>
+            <option value='variable'>VARIAVEL</option>
+            <option value='fixed'>FIXA</option>
           </select>
 
           <input
