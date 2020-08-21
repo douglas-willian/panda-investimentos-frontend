@@ -35,7 +35,7 @@ export default function Logon() {
   return (
     <div className='logon-container'>
       <section className='form'>
-        <img id='logo' src={logoImg} />
+        <img id='logo' src={logoImg} alt=''/>
 
         <form onSubmit={handleLogin}>
           <h1>Faça seu logon</h1>
@@ -65,7 +65,7 @@ export default function Logon() {
         </form>
       </section>
       <ToastContainer />
-      <img id='bamboo' src={bambooImg} />
+      <img id='bamboo' src={bambooImg} alt=''/>
     </div>
   );
 }

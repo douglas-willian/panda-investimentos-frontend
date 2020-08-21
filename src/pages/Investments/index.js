@@ -56,7 +56,7 @@ export default function GetInvestments() {
   return (
     <div className='investment-container'>
       <header>
-        <img src={logoImg} />
+        <img src={logoImg} alt=''/>
 
         <span>Meus Investimentos</span>
 

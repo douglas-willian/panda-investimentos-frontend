@@ -39,7 +39,7 @@ export default function NewInvestment() {
 
       history.push(`/investments/${id}`);
     } catch (err) {
-      notify('error', 'Erro ao cadastrar caso, tente novamente.');
+      notify('error', 'Erro ao registrar investimento, tente novamente.');
     }
   }
 
