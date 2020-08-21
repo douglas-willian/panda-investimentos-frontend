@@ -32,4 +32,5 @@ Depois de instalado, execute o comando `npm start` para iniciar a aplicação.
 
 Para conferir o projeto em produção com Heroku, acesse o link https://panda-investimentos-frontend.herokuapp.com/
 
+Obs.: Arquivo .env presente somente para os devidos testes locais
 ---
