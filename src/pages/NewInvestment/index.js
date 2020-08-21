@@ -47,7 +47,7 @@ export default function NewInvestment() {
     <div className='new-investment-container'>
       <div className='content'>
         <section>
-          <img src={logoImg} />
+          <img src={logoImg} alt=''/>
 
           <h1>Cadastrar novo caso</h1>
 

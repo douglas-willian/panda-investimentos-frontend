@@ -1,10 +1,10 @@
 import { notify } from '../../services/notification';
 import { useHistory } from 'react-router-dom';
+import api from '../../services/api';
 
 const id = localStorage.getItem('id');
 const token = localStorage.getItem('token');
 
-import api from '../../services/api';
 
 const history = useHistory();
 
