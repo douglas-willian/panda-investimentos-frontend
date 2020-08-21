@@ -81,11 +81,11 @@ export default function GetInvestments() {
 
       <h1>Renda Váriavel</h1>
       <ul>
-        {renderInvestments(investments, 'variavel', handleDeleteInvestments)}
+        {renderInvestments(investments, 'variable', handleDeleteInvestments)}
       </ul>
 
       <h1>Renda Fixa</h1>
-      <ul>{renderInvestments(investments, 'fixa', handleDeleteInvestments)}</ul>
+      <ul>{renderInvestments(investments, 'fixed', handleDeleteInvestments)}</ul>
       <ToastContainer />
     </div>
   );
