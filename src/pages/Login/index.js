@@ -37,8 +37,6 @@ export default function Login() {
 
       <h1 id='login-title'>PANDA INVESTIMENTOS</h1>
 
-        {/* <img id='logo' src={logoImg} alt='' /> */}
-
         <form onSubmit={handleLogin}>
           <h1>Faça seu login</h1>
 
