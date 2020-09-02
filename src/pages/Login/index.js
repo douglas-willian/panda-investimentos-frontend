@@ -27,6 +27,7 @@ export default function Login() {
 
       history.push(`/investments/${id}`);
     } catch (err) {
+      console.log(err)
       notify('error', 'Usuário e/ou Senha Inválidos.');
     }
   }
