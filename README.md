@@ -18,10 +18,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias e bibliotecas:
 - [Jest](https://jestjs.io/) - Para testes
 - [ESLint](https://eslint.org/)
 
-## 💻 Projeto
-
-Projeto desenvolvido para o Teste Gorila - Full-Stack
-
 ## 💻 Instruções
 
 Para rodar o projeto, primeiro instale o [backend do projeto na sua máquina](https://github.com/douglas-willian/panda-investimentos-backend)
